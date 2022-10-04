@@ -10,7 +10,7 @@ const server = http.createServer(app) //LA CONVERTIMOS A UN SERVIDOR "http"
 const io = new sockeServer(server, {
     cors: {
         //origin: 'http://127.0.0.1:5173'
-        origin: 'https://chatt-app-node.netlify.app/'
+        origin: 'https://chatt-app-node.netlify.app'
     }
 })// EL SERVIDOR DE ARRIBA SE LO PASAMOS COMO PARÁMETRO AL SERVIDOR DE WEBSOCKETS
 
